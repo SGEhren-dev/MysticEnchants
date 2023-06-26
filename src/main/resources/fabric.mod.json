@@ -3,9 +3,9 @@
 	"id": "mysticenchants",
 	"version": "${version}",
 	"name": "MysticEnchants",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Custom enchantment mod for Fabric MC",
 	"authors": [
-		"Me!"
+		"Ehren Grenlund"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,19 +16,12 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.ehrengrenlund.mysticenchants.ExampleMod"
+			"com.ehrengrenlund.mysticenchants.MysticEnchants"
 		],
 		"client": [
-			"com.ehrengrenlund.mysticenchants.ExampleModClient"
+			"com.ehrengrenlund.mysticenchants.MysticEnchantsClient"
 		]
 	},
-	"mixins": [
-		"mysticenchants.mixins.json",
-		{
-			"config": "mysticenchants.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
 		"minecraft": "~1.20.1",

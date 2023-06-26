@@ -3,7 +3,7 @@
 	"package": "com.ehrengrenlund.mysticenchants.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"BountyMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
